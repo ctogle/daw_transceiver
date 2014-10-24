@@ -1,0 +1,7 @@
+
+
+*.swp
+src/build/*
+src/dist/*
+src/modular_daw_transceiver_pkg.egg-info/*
+
