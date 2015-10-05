@@ -1,9 +1,9 @@
-import modular_core.libfundamental as lfu
-lfu.USING_GUI = True
-import modular_dt.gui.libqtgui_daw_transceiver as praqg
+import modular_core.fundamental as lfu
+#import modular_dt.gui.libqtgui_daw_transceiver as praqg
 
 if __name__ == '__main__':
-  params = {'application':praqg._application_}
-  lfu.initialize_gui(params)
+    lfu.using_gui = True
+    lfu.set_gui_pack('modular_dt.gui.libqtgui_daw_transceiver')
+    lfu.gui_pack.initialize()
 
 
